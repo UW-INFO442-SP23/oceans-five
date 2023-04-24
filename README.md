@@ -1,3 +1,19 @@
+## Problem Statement
+Every year millions of people travel to coastal areas all over the world to experience and enjoy the ocean. One of the best and easiest ways to do so is to go snorkeling. However, since many who enter the ocean and explore the reefs and other ecosystems are not educated on how to explore these areas, they risk damaging habitats out of negligence. Whether it's a group of tourists who head to a beach and leave trash or a group of snorkelers who walk all over the coral, causing it to die, it all has a negative impact on the lifespan of these beautiful natural environments. We believe that this issue stems from a lack of education on how to snorkel safely and sustainably, and that this lack of education stems from a lack of easily accessible resources for tourists. There seems to be a “barrier to entry” when it comes to aquatic activities, such as needing to do a lot of research and expensive gear. These issues are very easy to fix and cause major damage to the ecosystems they affect, so by helping others understand what they should do and how to interact with wildlife, as well as connecting them to local eco-friendly snorkeling tours, we can better protect the oceans.
+
+Our solution will help combat this by creating a digital tool that educates and assists users by organizing snorkeling locations, equipment, safety, and skills. We hypothesize that consolidating this information will help reduce the barrier to entry for recreational aquatic exploration. Ultimately, this resource will help users quickly answer the following questions:
+1. Where can I snorkel?
+1. What equipment do I need to snorkel?
+1. How do I snorkel in a way that protects me and the environment?
+
+## Features
+
+### Location-based search
+Users will be able to search for snorkeling locations through a simple query. The website will return a list of locations that match the query parameters.
+
+### Location listings
+Location listings will incorporate local weather data in a card format to give users a high-level overview of a snorkeling location. Weather data will include current temperature, precipitation, wind speed, wave height, high tide time, and low tide time. Location data will also include the location name and address.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
