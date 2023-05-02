@@ -1,5 +1,5 @@
 import React from "react";
-
+import Nav from './Nav';
 
 export default function CardPage(props) {
 
@@ -20,6 +20,7 @@ export default function CardPage(props) {
 
     return (
         <div className="cardpage">
+          <Nav />
             {card}
         </div>
     );

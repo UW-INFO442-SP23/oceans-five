@@ -1,0 +1,84 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Times New Roman' */
+}
+
+/* styles */
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 48pt;
+    text-decoration: solid;
+}
+
+h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 34pt;
+    text-decoration: solid;
+}
+
+h4 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 17pt;
+    text-decoration: solid;
+    margin: 0;
+}
+
+p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12pt;
+}
+
+/* landing page */
+ 
+.landing {
+    height: 100%;
+    width: 100%;
+    background: url(/img/sarah-lee-QURU8IY-RaI-unsplash.jpg) no-repeat center center fixed;
+    /* linear-gradient(75deg,
+    rgba(0, 0, 0),
+    rgba(255,255,255)), */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+}
+
+.landing-text {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 600px;
+}
+
+/* dive in button */
+
+#dive-in {
+    background-color: #0B818C;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    color: white;
+    height: 60px;
+    width: 350px;
+}
+
+/* navbar */
+.navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-buttons {
+    padding: 15px;
+}
+
