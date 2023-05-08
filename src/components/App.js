@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import React from 'react';
+import Landing from './Landing';
 
 
 export default function App(props) {
@@ -90,14 +91,12 @@ export default function App(props) {
 
   return (
     <div>
-      <Router>
         <Routes>
-          // This is all just temporary garbage code. FEEL FREE TO DELETE IT ALL.
-          <Route path="/Home" element={<Navigate to="/home" />} />
+          <Route index element={<Landing />} />
+          {/* <Route path="/Home" element={<Navigate to="/home" />} />
           <Route path="/Search" element={<CardPage /> } />
-          <Route path="/Learn" element={<h1>About</h1>} />
+          <Route path="/Learn" element={<h1>About</h1>} /> */}
         </Routes>
-      </Router>
     </div>
   );
 }
