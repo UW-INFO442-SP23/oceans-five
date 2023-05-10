@@ -1,29 +1,24 @@
 import React from "react";
 import Nav from './Nav';
+import Card from './Card';
+
 
 export default function CardPage(props) {
-
-    const card = data.map((data) => {
-        return (
-          <div className="card">
-            <h1 className='CardPage'>{data.title}</h1>
-            <h2>Temperature: {data.temperature}</h2>
-            <h2>Low Tide: {data.lowtide}</h2>
-            <h2>High Tide: {data.hightide}</h2>
-            <h2>Weather: {data.weather}</h2>
-            <h2>Wind: {data.wind}</h2>
-            <h2>Wave Height: {data.waveheight}</h2>
-          </div>
-        )
-    });
-
-
+  const data = props.data;
+  console.log(data);
+  const cards = data.map((item) => {
     return (
-        <div className="cardpage">
-          <Nav />
-            {card}
-        </div>
-    );
+      <Card data={item} />
+    )
+  });
+  return (
+    <div className="cardpage landing">
+      <div className="card-container d-flex flex-wrap justify-content-between align-items-end">
+        {cards}
+      </div>
+
+    </div>
+  );
 
 
 }

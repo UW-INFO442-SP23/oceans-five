@@ -6,6 +6,14 @@ body {
     margin: 0;
     padding: 0;
     /* font-family: 'Times New Roman' */
+    background: url(/img/sarah-lee-QURU8IY-RaI-unsplash.jpg) no-repeat center center fixed;
+    /* linear-gradient(75deg,
+    rgba(0, 0, 0),
+    rgba(255,255,255)), */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 /* styles */
@@ -38,14 +46,7 @@ p {
 .landing {
     height: 100%;
     width: 100%;
-    background: url(/img/sarah-lee-QURU8IY-RaI-unsplash.jpg) no-repeat center center fixed;
-    /* linear-gradient(75deg,
-    rgba(0, 0, 0),
-    rgba(255,255,255)), */
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    
     margin: 0;
 }
 
@@ -54,7 +55,7 @@ p {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #F5F5F5;
     width: 600px;
 }
 
@@ -65,7 +66,7 @@ p {
     border-radius: 10px;
     border: none;
     text-align: center;
-    color: white;
+    color: #F5F5F5;
     height: 60px;
     width: 350px;
 }
@@ -82,3 +83,6 @@ p {
     padding: 15px;
 }
 
+.cardpage {
+    color: black;
+}
