@@ -14,7 +14,7 @@ export default function Landing(props) {
                         </button>
                     </Link>
                 </div>
-                <div><p>New to snorkeling? Learn more.</p></div>
+                <div><p>New to snorkeling? <a id='landing-link' href="/Learn">Learn more.</a></p></div>
             </div>
         </div>
     );
