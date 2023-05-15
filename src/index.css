@@ -75,12 +75,25 @@ p {
 .navbar {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: center;
+    justify-content: center !important;
     align-items: center;
+    background-color: white;
+    height: 60px;
 }
 
 .nav-buttons {
     padding: 15px;
+    color: black;
+}
+
+.nav-buttons a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-buttons a:active, a:focus {
+    text-decoration: underline !important;
+    color: #0B818C !important;
 }
 
 .cardpage {

@@ -4,6 +4,8 @@ import Landing from './Landing';
 import data from './data/hawaiibeaches.json';
 import CardPage from './CardPage';
 import Nav from './Nav';
+import Donate from './Donate';
+import Learn from './Learn';
 export default function App(props) {
 
 
@@ -14,6 +16,8 @@ export default function App(props) {
       <Routes>
         <Route index element={<Landing />} />
         <Route path="/Search" element={<CardPage data={data} />} />
+        <Route path="/Learn" element={<Learn/>} />
+        <Route path="/Donate" element={<Donate />} />
       </Routes>
     </div>
   );
