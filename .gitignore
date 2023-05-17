@@ -21,3 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# data work
+/src/data/notebooks
+/src/data/raw
