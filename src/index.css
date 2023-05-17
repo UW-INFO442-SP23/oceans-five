@@ -105,17 +105,18 @@ p {
 .navbar {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: center !important;
-    align-items: center;
+    justify-content: start !important;
+    align-items: start;
     background-color: white;
     height: 60px;
     position: fixed;
 }
 
 .nav-buttons {
-    padding: 15px;
+    padding: 10px;
     color: black;
 }
+
 
 .nav-buttons a {
     color: black;
