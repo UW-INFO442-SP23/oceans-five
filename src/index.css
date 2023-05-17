@@ -109,6 +109,7 @@ p {
     align-items: center;
     background-color: white;
     height: 60px;
+    position: fixed;
 }
 
 .nav-buttons {
@@ -130,8 +131,28 @@ p {
 #landing-link {
     text-decoration: bold, underline;
     color: white;
+    font-weight: 800 !important;
 }
 
 .cardpage {
     color: black;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    color: #666666;
+    /* opacity: 60%; */
+    min-width: 370px;
+    min-height: 56;
+    border-radius: 8px;
+}
+
+#search-item {
+    margin: 1rem 0.75rem 1rem 0.75rem;
+}
+
+#search-item-start {
+    display: inline-flex;
 }
