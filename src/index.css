@@ -1,3 +1,20 @@
+:root {
+    --background-primary: rgba(255, 255, 255, 1);
+    --background-secondary: rgba(255, 255, 255, 0.8);
+    --background-overlay: rgba(255, 255, 255, 0.7);
+
+    --label-primary: rgba(0, 0, 0, 0.82);
+    --label-secondary: rgba(0, 0, 0, 0.6);
+    --label-tertiary: rgba(0, 0, 0, 0.38);
+
+    --divider-solid: #c8c8c8;
+    --divider-transparent: rgba(67, 67, 67, 0.36);
+
+    --accent-ocean: #0b818c;
+    --red-heart: #ff3b30;
+}
+
+
 html {
     height: 100%;
 }
