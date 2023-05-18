@@ -11,7 +11,7 @@ export default function App(props) {
 
 
   return (
-    <div>
+    <div id="root">
       <Nav />
       <Routes>
         <Route index element={<Landing />} />
