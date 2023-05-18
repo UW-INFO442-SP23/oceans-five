@@ -5,7 +5,6 @@ import Nav from './Nav';
 export default function Donate(props) {
     return (
         <div class='landing'>
-            <Nav />
             <div class="landing-text">
                 <div><h1>Discover life underwater through snorkeling</h1></div>
                 <div>
