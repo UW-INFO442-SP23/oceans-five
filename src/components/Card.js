@@ -1,22 +1,96 @@
-import React from "react";
-
+import React, { useRef, useEffect } from "react";
+import { responsivePropType } from "react-bootstrap/esm/createUtilityClasses";
+import restroom_img from '../icons/services/bathroom.svg';
+import trash_img from '../icons/services/trash.svg';
+import water_img from '../icons/services/water.svg';
+import shower_img from '../icons/services/shower.svg';
+import picnic_img from '../icons/services/picnic.svg';
+import phone_img from '../icons/services/phone.svg';
 
 export default function Card(props) {
-    console.log(props.data);
+    // use the google-images npm package to get images from google
+    const ref = useRef(null);
+    var restroom = '';
+    var trash = '';
+    var water = '';
+    var shower = '';
+    var picnic = '';
+    var phone = '';
+    const beach = props.data.shore_type;
+    const path = props.data.access_sur;
+    const access = props.data.access_typ;
+    console.log(beach);
+    useEffect(() => {
+        // The DOM element is accessible here.
+        const element = ref.current;
+        console.log(element.id);
+        if (beach == 'Sand') {
+            const beachContent = document.getElementById(element.id);
+            beachContent.style.backgroundColor = '#F9E69C';
+        } else if (beach == 'Rock') {
+            const beachContent = document.getElementById(element.id);
+            beachContent.style.backgroundColor = '#C6B3D6';
+        } else if (beach == 'Cliff') {
+            const beachContent = document.getElementById(element.id);
+            beachContent.style.backgroundColor = '#9FB0C2';
+        } else if (beach == 'River') {
+            const beachContent = document.getElementById(element.id);
+            beachContent.style.backgroundColor = '#B4DBD1';
+        } else {
+            const beachContent = document.getElementById(element.id);
+            beachContent.style.backgroundColor = '#C6B3D6';
+        }
+    }, []);
+    if (props.data.restroom == 'Yes') {
+        restroom = restroom_img;
+    }
+    if (props.data.trash_rece == 'Yes') {
+        trash = trash_img;
+    }
+    if (props.data.water == 'Yes') {
+        water = water_img;
+
+    }
+    if (props.data.showers == 'Yes') {
+        shower = shower_img;
+    }
+    if (props.data.picnic_fac == 'Yes') {
+        picnic = picnic_img;
+    }
+    if (props.data.phone == 'Yes') {
+        phone = phone_img;
+    }
+
     return (
         <div className="card col-md-3 col-lg-3 p-3">
             <div className="card">
+                <img className="card-img-top" alt="Card cap" />
                 <div className="card-body">
+                    <div className='cardHeading'>
+                        <h1 className='CardPage'>{props.data.name}</h1>
+                        <h5 className='CardPage'>{props.data.address}</h5>
+                    </div>
+                    <div className='beachType'>
+                        <p className='cardLabel beach'>Beach</p>
+                        <p className='cardLabel beach'>Path</p>
+                        <p className='cardLabel beach'>Access</p>
+                    </div>
+                    <div className='beachContent'>
+                        <p className='beach' id="beach" ref={ref}>{beach}</p>
+                        <p className='beach' id='path'>{path}</p>
+                        <p className='beach' id="access">{access}</p>
+                    </div>
+                    <div className='services'>
+                        <p className='cardLabel'>Services</p>
+                        <img src={restroom} className="icon_img" />
+                        <img src={trash} className="icon_img" />
+                        <img src={water} className="icon_img" />
+                        <img src={picnic} className="icon_img" />
+                        <img src={shower} className="icon_img" />
+                        <img src={phone} className="icon_img" />
+                    </div>
 
-                    <img className="card-img-top" alt="Card cap" />
-                    <h1 className='CardPage'>{props.data.name}</h1>
-                    <h2>Restroom: {props.data.restroom}</h2>
-                    <h2>Showers: {props.data.showers}</h2>
-                    <h2>Picnic Area: {props.data.picnic_fac}</h2>
-                    <h2>Trash Cans: {props.data.trash_rece}</h2>
-                    <h2>Water: {props.data.water}</h2>
-                    <h2>Phone: {props.data.phone}</h2>
-                    <h2>Lifeguard: {props.data.lifeguard}</h2>
+
                 </div>
             </div>
         </div>

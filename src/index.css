@@ -99,3 +99,21 @@ p {
 .cardpage {
     color: black;
 }
+.icon_img {
+    margin: 0 .25rem;
+}
+.cardLabel {
+    font-family: Noto Sans, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+
+}
+.beachType {
+    white-space: nowrap;
+
+}
+.beach {
+    display: inline-block;
+    margin-right: 2rem;
+}
