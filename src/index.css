@@ -124,16 +124,18 @@ h1, h2, h3, h4, h5, h6 {
 .navbar {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: center !important;
-    align-items: center;
+    justify-content: start !important;
+    align-items: start;
     background-color: white;
     height: 60px;
+    position: fixed;
 }
 
 .nav-buttons {
-    padding: 15px;
+    padding: 10px;
     color: black;
 }
+
 
 .nav-buttons a {
     color: black;
@@ -149,8 +151,28 @@ h1, h2, h3, h4, h5, h6 {
 #landing-link {
     text-decoration: bold, underline;
     color: white;
+    font-weight: 800 !important;
 }
 
 .cardpage {
     color: black;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    color: #666666;
+    /* opacity: 60%; */
+    min-width: 370px;
+    min-height: 56;
+    border-radius: 8px;
+}
+
+#search-item {
+    margin: 1rem 0.75rem 1rem 0.75rem;
+}
+
+#search-item-start {
+    display: inline-flex;
 }

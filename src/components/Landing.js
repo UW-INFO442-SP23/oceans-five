@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Nav from './Nav';
+import Search from './Search';
 
 export default function Landing(props) {
     return (
@@ -8,11 +9,12 @@ export default function Landing(props) {
             <div class="landing-text">
                 <div><h1>Discover life underwater through snorkeling</h1></div>
                 <div>
-                    <Link to='/Search'>
+                    {/* <Link to='/Search'>
                         <button type="button" id="dive-in">
                             <h4>Dive in!</h4>
                         </button>
-                    </Link>
+                    </Link> */}
+                    <Search />
                 </div>
                 <div><p id="landing-p">New to snorkeling? <a id='landing-link' href="/Learn">Learn more.</a></p></div>
             </div>
