@@ -4,7 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import App from './components/App.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import { Loader } from "@googlemaps/js-api-loader"
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
@@ -28,7 +28,6 @@ const app = initializeApp(firebaseConfig);
 // firebase login
 // firebase init
 // firebase deploy
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>

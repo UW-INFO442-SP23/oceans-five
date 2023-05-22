@@ -6,9 +6,9 @@ import water_img from '../icons/services/water.svg';
 import shower_img from '../icons/services/shower.svg';
 import picnic_img from '../icons/services/picnic.svg';
 import phone_img from '../icons/services/phone.svg';
+import beach_img from '../icons/beach.jpg';
 
 export default function Card(props) {
-    // use the google-images npm package to get images from google
     const ref = useRef(null);
     var restroom = '';
     var trash = '';
@@ -24,8 +24,8 @@ export default function Card(props) {
         // The DOM element is accessible here.
         const element = ref.current;
         console.log(element.id);
-        if (beach == 'Sand') {
-            const beachContent = document.getElementById(element.id);
+        if (beach.includes('Sand') == true) {
+            const beachContent = document.getElementById('beach');
             beachContent.style.backgroundColor = '#F9E69C';
         } else if (beach == 'Rock') {
             const beachContent = document.getElementById(element.id);
@@ -60,11 +60,10 @@ export default function Card(props) {
     if (props.data.phone == 'Yes') {
         phone = phone_img;
     }
-
     return (
-        <div className="card col-md-3 col-lg-3 p-3">
+        <div className="card col-md-4 col-lg-4">
             <div className="card">
-                <img className="card-img-top" alt="Card cap" />
+                <img className="card-img-top" alt="Card cap" src={beach_img}/>
                 <div className="card-body">
                     <div className='cardHeading'>
                         <h1 className='CardPage'>{props.data.name}</h1>

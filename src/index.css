@@ -213,4 +213,17 @@ h1, h2, h3, h4, h5, h6 {
 .beach {
     display: inline-block;
     margin-right: 2rem;
+
+}
+.card {
+    margin: 1rem;
+}
+#beach {
+    background-color: #F9E69C;
+}
+#path {
+    background-color: #BAE2AC;
+}
+#access {
+    background-color: #B4DBD1;
 }
