@@ -155,7 +155,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .cardpage {
-    color: black;
+    color: #000000D1;
 }
 .icon_img {
     margin: 0 .25rem;
@@ -194,7 +194,18 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-flex;
 }
 .cardpage {
-    color: black;
+    color: #000000D1;
+}
+.CardTitle {
+    font-weight: 800;
+    font-family: 'Noto Sans' sans-serif;
+    size: 34px;
+
+}
+.CardAddress {
+    font-weight: 600;
+    font-family: 'Noto Sans' sans-serif;
+    size: 17px;
 }
 .icon_img {
     margin: 0 .25rem;

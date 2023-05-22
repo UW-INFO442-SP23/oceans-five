@@ -66,8 +66,9 @@ export default function Card(props) {
                 <img className="card-img-top" alt="Card cap" src={beach_img}/>
                 <div className="card-body">
                     <div className='cardHeading'>
-                        <h1 className='CardPage'>{props.data.name}</h1>
-                        <h5 className='CardPage'>{props.data.address}</h5>
+                        <h2 className='CardPage CardTitle'>{props.data.name}</h2>
+                        <p className='cardLabel'>Address</p>
+                        <h5 className='CardPage CardAddress'>{props.data.address}</h5>
                     </div>
                     <div className='beachType'>
                         <p className='cardLabel beach'>Beach</p>
