@@ -7,6 +7,7 @@ import shower_img from '../icons/services/shower.svg';
 import picnic_img from '../icons/services/picnic.svg';
 import phone_img from '../icons/services/phone.svg';
 import beach_img from '../icons/beach.jpg';
+import {Link} from 'react-router-dom';
 
 export default function Card(props) {
     const ref = useRef(null);
@@ -61,38 +62,40 @@ export default function Card(props) {
         phone = phone_img;
     }
     return (
-        <div className="card col-md-4 col-lg-4">
-            <div className="card">
-                <img className="card-img-top" alt="Card cap" src={beach_img}/>
-                <div className="card-body">
-                    <div className='cardHeading'>
-                        <h2 className='CardPage CardTitle'>{props.data.name}</h2>
-                        <p className='cardLabel'>Address</p>
-                        <h5 className='CardPage CardAddress'>{props.data.address}</h5>
-                    </div>
-                    <div className='beachType'>
-                        <p className='cardLabel beach'>Beach</p>
-                        <p className='cardLabel beach'>Path</p>
-                        <p className='cardLabel beach'>Access</p>
-                    </div>
-                    <div className='beachContent'>
-                        <p className='beach' id="beach" ref={ref}>{beach}</p>
-                        <p className='beach' id='path'>{path}</p>
-                        <p className='beach' id="access">{access}</p>
-                    </div>
-                    <div className='services'>
-                        <p className='cardLabel'>Services</p>
-                        <img src={restroom} className="icon_img" />
-                        <img src={trash} className="icon_img" />
-                        <img src={water} className="icon_img" />
-                        <img src={picnic} className="icon_img" />
-                        <img src={shower} className="icon_img" />
-                        <img src={phone} className="icon_img" />
-                    </div>
+        <div className="col-md-4 col-lg-4">
+            <Link className='link' to="LocationPage" onClick={() => props.setSelectedData(props.data)}>
+                <div className="card">
+                    <img className="card-img-top" alt="Card cap" src={beach_img} />
+                    <div className="card-body">
+                        <div className='cardHeading'>
+                            <h2 className='CardPage CardTitle'>{props.data.name}</h2>
+                            <p className='cardLabel'>Address</p>
+                            <h5 className='CardPage CardAddress'>{props.data.address}</h5>
+                        </div>
+                        <div className='beachType'>
+                            <p className='cardLabel beach'>Beach</p>
+                            <p className='cardLabel beach'>Path</p>
+                            <p className='cardLabel beach'>Access</p>
+                        </div>
+                        <div className='beachContent'>
+                            <p className='beach' id="beach" ref={ref}>{beach}</p>
+                            <p className='beach' id='path'>{path}</p>
+                            <p className='beach' id="access">{access}</p>
+                        </div>
+                        <div className='services'>
+                            <p className='cardLabel'>Services</p>
+                            <img src={restroom} className="icon_img" />
+                            <img src={trash} className="icon_img" />
+                            <img src={water} className="icon_img" />
+                            <img src={picnic} className="icon_img" />
+                            <img src={shower} className="icon_img" />
+                            <img src={phone} className="icon_img" />
+                        </div>
 
-
+                    </div >
                 </div>
-            </div>
+            </Link>
         </div>
+
     )
 }
