@@ -70,10 +70,12 @@ h6, p {
 /* Font weights */
 h1, h2 {
     font-weight: 800;
+    color: #F5F5F5;
 }
 
 h3, h4, h6 {
     font-weight: 600;
+    color: #d4d4d4;
 }
 
 h5, p {
@@ -242,4 +244,9 @@ h1, h2, h3, h4, h5, h6 {
 #selectedCard{
     width: 95%;
     height: 95%;
+}
+
+#static-pages-text {
+    height: 100%;
+    padding: 100px;
 }
