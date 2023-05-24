@@ -131,11 +131,13 @@ h1, h2, h3, h4, h5, h6 {
     background-color: white;
     height: 60px;
     position: fixed;
+    font-size: 22px;
 }
 
 .nav-buttons {
     padding: 10px;
     color: black;
+    font-size: 30px;
 }
 
 
@@ -202,6 +204,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 800;
     font-family: 'Noto Sans' sans-serif;
     size: 34px;
+    color: #000000D1;
 
 }
 .CardAddress {
