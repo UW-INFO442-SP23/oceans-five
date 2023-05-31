@@ -1,6 +1,6 @@
 import React from "react";
 import Card from './Card';
-
+import { FilterBox} from './Filter';
 
 export default function CardPage(props) {
   const data = props.data;
@@ -32,7 +32,7 @@ export default function CardPage(props) {
         </div>
       </div>
       <div className="Filterbuttons">
-        
+        <FilterBox />
       </div>
       <div className="card-container d-flex flex-wrap justify-content-between align-items-end">
         {cards}

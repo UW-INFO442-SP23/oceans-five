@@ -271,3 +271,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 30%;
     margin-left: 1rem;
 }
+.filterbox {
+    margin-left: .75rem;
+    text-align: center;
+}
