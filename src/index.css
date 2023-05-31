@@ -209,8 +209,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 .CardAddress {
     font-weight: 600;
+    height: 50px;
     font-family: 'Noto Sans' sans-serif;
     size: 17px;
+
+    /* for text overflow */
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .icon_img {
     margin: 0 .25rem;
