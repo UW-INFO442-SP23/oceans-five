@@ -81,14 +81,26 @@ export default function Card(props) {
                             <h5 className='CardPage CardAddress'>{props.data.address}</h5>
                         </div>
                         <div className='beachType'>
-                            <p className='cardLabel beach'>Beach</p>
-                            <p className='cardLabel beach'>Path</p>
-                            <p className='cardLabel beach'>Access</p>
+                            <div className='beachContentWrapper'>
+                                <p className='cardLabel beach'>Beach</p>
+                            </div>
+                            <div className='beachContentWrapper'>
+                                <p className='cardLabel beach'>Path</p>
+                            </div>
+                            <div className='beachContentWrapper last'>
+                                <p className='cardLabel beach'>Access</p>
+                            </div>
                         </div>
                         <div className='beachContent'>
-                            <p className='beach' id="beach" ref={ref}>{beach}</p>
-                            <p className='beach' id='path'>{path}</p>
-                            <p className='beach' id="access">{access}</p>
+                            <div className='beachContentWrapper'>
+                                <p className='beach' id="beach" ref={ref}>{beach}</p>
+                            </div>
+                            <div className='beachContentWrapper'>
+                                <p className='beach' id='path'>{path}</p>
+                            </div>
+                            <div className='beachContentWrapper last'>
+                                <p className='beach' id="access">{access}</p>
+                            </div>
                         </div>
                         <div className='services'>
                             <p className='cardLabel'>Services</p>
