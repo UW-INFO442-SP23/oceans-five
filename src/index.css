@@ -252,6 +252,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #000000D1;
     text-decoration: none;
 }
+.link:hover {
+    text-decoration: none;
+    color: #000000D1;
+}
 #static-pages-text {
     height: 100%;
     padding: 100px;
