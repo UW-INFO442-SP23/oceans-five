@@ -17,7 +17,7 @@ export function FilterBox(props) {
     return (
         <div>
             <div className="d-inline-block m-1">
-                <select className='form-select mb-4 filterbox' name="comparators" id="comparators" onChange={handleComparatorChange}>
+                <select className='form-select mb-4 filterbox text-start' name="comparators" id="comparators" onChange={handleComparatorChange}>
                     <option value="">Path</option>
                     <option value="Sand">Sand</option>
                     <option value="Grass">Grass</option>
@@ -28,7 +28,7 @@ export function FilterBox(props) {
                 </select>
             </div>
             <div className="d-inline-block m-1">
-                <select className='form-select mb-4 filterbox' name="comparators" id="comparators" onChange={handleComparatorChange2}>
+                <select className='form-select mb-4 filterbox text-start' name="comparators" id="comparators" onChange={handleComparatorChange2}>
                     <option value="">Beach</option>
                     <option value="Sand">Sand</option>
                     <option value="Rock">Rock</option>
@@ -37,7 +37,7 @@ export function FilterBox(props) {
                 </select>
             </div>
             <div className="d-inline-block m-1">
-                <select className='form-select mb-4 filterbox' name="comparators" id="comparators" onChange={handleComparatorChange3}>
+                <select className='form-select mb-4 filterbox text-start' name="comparators" id="comparators" onChange={handleComparatorChange3}>
                     <option value="">Access</option>
                     <option value="Vertical">Private</option>
                     <option value="Horizontal">Public</option>
@@ -45,7 +45,7 @@ export function FilterBox(props) {
                 </select>
             </div>
             <div className="d-inline-block m-1">
-                <select className='form-select mb-4 filterbox' name="comparators" id="comparators" onChange={handleComparatorChange4}>
+                <select className='form-select mb-4 filterbox text-start' name="comparators" id="comparators" onChange={handleComparatorChange4}>
                     <option value="">Services</option>
                     <option value="Vertical">Vertical</option>
                     <option value="Horizontal">Horizontal</option>
