@@ -8,6 +8,7 @@ import picnic_img from '../icons/services/picnic.svg';
 import phone_img from '../icons/services/phone.svg';
 import beach_img from '../icons/beach.jpg';
 import {Link} from 'react-router-dom';
+import Tooltip from '@mui/material/Tooltip';
 
 export default function Card(props) {
     const ref = useRef(null);
@@ -84,12 +85,12 @@ export default function Card(props) {
                         </div>
                         <div className='services'>
                             <p className='cardLabel'>Services</p>
-                            <img src={restroom} className="icon_img" />
-                            <img src={trash} className="icon_img" />
-                            <img src={water} className="icon_img" />
-                            <img src={picnic} className="icon_img" />
-                            <img src={shower} className="icon_img" />
-                            <img src={phone} className="icon_img" />
+                            <Tooltip title="Restroom"><img src={restroom} className="icon_img" /></Tooltip>
+                            <Tooltip title="Trash"><img src={trash} className="icon_img" /></Tooltip>
+                            <Tooltip title="Water"><img src={water} className="icon_img" /></Tooltip>
+                            <Tooltip title="Picnic"><img src={picnic} className="icon_img" /></Tooltip>
+                            <Tooltip title="Shower"><img src={shower} className="icon_img" /></Tooltip>
+                            <Tooltip title="Phone"><img src={phone} className="icon_img" /></Tooltip>
                         </div>
 
                     </div >
