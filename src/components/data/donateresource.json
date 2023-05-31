@@ -1,20 +1,20 @@
 [
   {
     "org_name": "Ocean Conservancy",
-    "org_desc": "org 1 description",
+    "org_desc": "A nonprofit environmental advocacy group based in Washington, D.C. that protects ocean life through evidence-based policy advocacy at federal and state levels.",
     "org_link": "https://donate.oceanconservancy.org/page/92465/donate/1",
     "org_img": "icons/resource/OceanConservancy.jpeg"
   },
   {
     "org_name": "Coral Reef Alliance",
-    "org_desc": "org 2 description",
+    "org_desc": "A global NGO focused exclusively on protecting coral reefs. They work at local, regional, and global levels to protect coral reefs for generations to come.",
     "org_link": "https://give.coral.org/give/406853/#!/donation/checkout",
-    "org_img": "CoralReefAlliance.jpeg"
+    "org_img": "icons/resource/CoralReefAlliance.jpeg"
   },
   {
-    "org_name": "org3",
-    "org_desc": "org 3 description",
-    "org_link": "https://www.org3.com",
-    "org_img": "https://www.org3.com/img.png"
+    "org_name": "Hawai'i Wildlife Fund",
+    "org_desc": "A 501(c)(3) nonprofit organization founded in 1996 to protect native species and habitats, and provide educational opportunities.",
+    "org_link": "https://www.wildhawaii.org/donate/",
+    "org_img": "icons/resource/HawaiiWildlifeFund.jpeg"
   }
 ]

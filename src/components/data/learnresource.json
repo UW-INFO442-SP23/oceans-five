@@ -1,20 +1,20 @@
 [
   {
-    "org_name": "org1",
-    "org_desc": "org 1 description",
-    "org_link": "https://www.org1.com",
-    "org_img": "https://www.org1.com/img.png"
+    "org_name": "Snorkeling Guide for Kids Health from the CDC",
+    "org_desc": "Engage the body and mind through snorkeling. Use this guide to teach kids about the importance of physical activity and the benefits of being outdoors.",
+    "org_link": "https://www.cdc.gov/healthyschools/bam/cards/snorkeling.html",
+    "org_img": "icons/resource/BAM.png"
   },
   {
-    "org_name": "org2",
-    "org_desc": "org 2 description",
-    "org_link": "https://www.org2.com",
-    "org_img": "https://www.org2.com/img.png"
+    "org_name": "Marine Life Viewing Guidelines from NOAA",
+    "org_desc": "A comprehensive guide to viewing marine life in a way that is safe for both you and the animals created by NOAA, the premiere resource for all things oceanic.",
+    "org_link": "https://www.fisheries.noaa.gov/topic/marine-life-viewing-guidelines/guidelines-&-distances",
+    "org_img": "icons/resource/NOAA.png"
   },
   {
-    "org_name": "org3",
-    "org_desc": "org 3 description",
-    "org_link": "https://www.org3.com",
-    "org_img": "https://www.org3.com/img.png"
+    "org_name": "Snorkeling Safety Tips in Hawai'i from Island Water Sports Hawai'i",
+    "org_desc": "A blog post that covers 12 basic tips for snorkeling safety, including how to choose the right equipment, how to stay safe in the water, and how to be respectful of the environment.",
+    "org_link": "https://islandwatersportshawaii.com/snorkeling-safety-tips/",
+    "org_img": "icons/resource/IWSH.png"
   }
 ]
