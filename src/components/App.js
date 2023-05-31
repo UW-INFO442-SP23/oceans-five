@@ -9,14 +9,14 @@ import Donate from './Donate';
 import Learn from './Learn';
 export default function App(props) {
   let [selectedData, setSelectedData] = useState();
-
+  let [selectedLocation, setSelectedLocation] = useState();
 
   return (
     <div id="root">
       <Nav />
       <Routes>
         <Route index element={<Landing />} />
-        <Route path="/Search" element={<CardPage data={data} selectedData={selectedData} setSelectedData={setSelectedData}/>} />
+        <Route path="/Search" element={<CardPage data={data} selectedData={selectedData} setSelectedData={setSelectedData} selectedLocation={selectedLocation} setSelectedLocation={setSelectedLocation}/>} />
         <Route path="/Search/LocationPage" element={<LocationPage data={data} selectedData={selectedData} setSelectedData={setSelectedData}/>} />
         <Route path="/Learn" element={<Learn/>} />
         <Route path="/Donate" element={<Donate />} />
