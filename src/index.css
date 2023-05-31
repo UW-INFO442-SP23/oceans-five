@@ -254,8 +254,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #selectedCard{
-    width: 95%;
-    height: 95%;
+    width: 90%;
+    height: 90%;
+    align-self: center;
+    justify-content: center;
+}
+#selectedCardImage{
+    width: 600px !important;
+    height: 300px !important;
+    display: flex;
+}
+.contentContainer{
+    display: flex;
 }
 .link {
     color: #000000D1;
@@ -272,4 +282,7 @@ h1, h2, h3, h4, h5, h6 {
 .cardsearch {
     width: 30%;
     margin-left: 1rem;
+}
+#locationNameH1{
+    color: black;
 }
