@@ -171,16 +171,39 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     font-size: 12px;
     color: rgba(0, 0, 0, 0.6);
+}
 
+.beachType,
+.beachContent {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: start;
 }
-.beachType {
-    white-space: nowrap;
 
+.beachContentWrapper {
+    flex: 1;
 }
-.beach {
-    display: inline-block;
-    margin-right: 2rem;
+
+.beachContentWrapper.last {
+    flex: 2;
 }
+
+.beachType > div > p {
+    margin: 0;
+    margin-bottom: 4px;
+}
+
+.beachContent > div > p {
+    padding: 3px 8px;
+    margin-left: -3px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
 .search {
     display: flex;
     justify-content: space-between;
