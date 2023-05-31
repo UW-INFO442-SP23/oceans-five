@@ -6,17 +6,25 @@ import shower_img from '../icons/services/shower.svg';
 import picnic_img from '../icons/services/picnic.svg';
 import phone_img from '../icons/services/phone.svg';
 import beach_img from '../icons/beach.jpg';
+
+import disabled_restroom_img from '../icons/services/bathroom-disabled.svg';
+import disabled_trash_img from '../icons/services/trash-disabled.svg';
+import disabled_water_img from '../icons/services/water-disabled.svg';
+import disabled_shower_img from '../icons/services/shower-disabled.svg';
+import disabled_picnic_img from '../icons/services/picnic-disabled.svg';
+import disabled_phone_img from '../icons/services/phone-disabled.svg';
+
 import {Link} from 'react-router-dom';
 import Tooltip from '@mui/material/Tooltip';
 
 export default function Card(props) {
     const ref = useRef(null);
-    var restroom = '';
-    var trash = '';
-    var water = '';
-    var shower = '';
-    var picnic = '';
-    var phone = '';
+    var restroom = disabled_restroom_img;
+    var trash = disabled_trash_img;
+    var water = disabled_water_img;
+    var shower = disabled_shower_img;
+    var picnic = disabled_picnic_img;
+    var phone = disabled_phone_img;
     const beach = props.data.shore_type;
     const path = props.data.access_sur;
     const access = props.data.access_typ;

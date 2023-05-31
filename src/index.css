@@ -205,7 +205,9 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Noto Sans' sans-serif;
     size: 34px;
     color: #000000D1;
-
+    height: 2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .CardAddress {
     font-weight: 600;
