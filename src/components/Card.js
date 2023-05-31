@@ -1,5 +1,4 @@
 import React, { useRef, useEffect } from "react";
-import { responsivePropType } from "react-bootstrap/esm/createUtilityClasses";
 import restroom_img from '../icons/services/bathroom.svg';
 import trash_img from '../icons/services/trash.svg';
 import water_img from '../icons/services/water.svg';

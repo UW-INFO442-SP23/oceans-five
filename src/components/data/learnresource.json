@@ -1,0 +1,20 @@
+[
+  {
+    "org_name": "org1",
+    "org_desc": "org 1 description",
+    "org_link": "https://www.org1.com",
+    "org_img": "https://www.org1.com/img.png"
+  },
+  {
+    "org_name": "org2",
+    "org_desc": "org 2 description",
+    "org_link": "https://www.org2.com",
+    "org_img": "https://www.org2.com/img.png"
+  },
+  {
+    "org_name": "org3",
+    "org_desc": "org 3 description",
+    "org_link": "https://www.org3.com",
+    "org_img": "https://www.org3.com/img.png"
+  }
+]
