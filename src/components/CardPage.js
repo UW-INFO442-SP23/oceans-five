@@ -31,6 +31,9 @@ export default function CardPage(props) {
             </svg>
         </div>
       </div>
+      <div className="Filterbuttons">
+        
+      </div>
       <div className="card-container d-flex flex-wrap justify-content-between align-items-end">
         {cards}
       </div>
