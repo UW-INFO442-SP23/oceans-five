@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import App from './components/App.js';
+import { initializeApp } from 'firebase/app';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Loader } from "@googlemaps/js-api-loader"
 
