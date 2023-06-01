@@ -13,12 +13,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyA87_or3eKbueBrPd25Fz4NB3eoFm2TtUU",
-  authDomain: "oceansfive-a962b.firebaseapp.com",
-  projectId: "oceansfive-a962b",
-  storageBucket: "oceansfive-a962b.appspot.com",
-  messagingSenderId: "399590352458",
-  appId: "1:399590352458:web:868b661bb736aae65de8b3"
+  apiKey: "AIzaSyAKn_LboJLfRffdHPxaOfUypX02W5qVRUY",
+  authDomain: "nautical-navigator-b0a9c.firebaseapp.com",
+  projectId: "nautical-navigator-b0a9c",
+  storageBucket: "nautical-navigator-b0a9c.appspot.com",
+  messagingSenderId: "514032419600",
+  appId: "1:514032419600:web:bdf0722394481e3711db95"
 };
 
 // Initialize Firebase
