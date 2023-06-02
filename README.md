@@ -15,7 +15,7 @@ Users will be able to search for snorkeling locations through a simple query. Th
 Location listings will incorporate local weather data in a card format to give users a high-level overview of a snorkeling location. Weather data will include current temperature, precipitation, wind speed, wave height, high tide time, and low tide time. Location data will also include the location name and address.
 
 # View our project on Firebase
-[Firebase Link]([https://nautical-navigator-b0a9c.web.app/](https://oceansfive.web.app/))
+[Firebase Link](https://oceansfive.web.app)
 
 # Getting Started with Create React App
 
