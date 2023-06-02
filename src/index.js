@@ -5,7 +5,6 @@ import './index.css';
 import App from './components/App.js';
 import { initializeApp } from 'firebase/app';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Loader } from "@googlemaps/js-api-loader"
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
@@ -14,12 +13,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAKn_LboJLfRffdHPxaOfUypX02W5qVRUY",
-  authDomain: "nautical-navigator-b0a9c.firebaseapp.com",
-  projectId: "nautical-navigator-b0a9c",
-  storageBucket: "nautical-navigator-b0a9c.appspot.com",
-  messagingSenderId: "514032419600",
-  appId: "1:514032419600:web:bdf0722394481e3711db95"
+  apiKey: "AIzaSyBm3hUrH95rQf0080t9BRchH6o-b3MGVOU",
+  authDomain: "oceans-five-defd9.firebaseapp.com",
+  projectId: "oceans-five-defd9",
+  storageBucket: "oceans-five-defd9.appspot.com",
+  messagingSenderId: "248250340918",
+  appId: "1:248250340918:web:5d7390ce6f47f7721d6a97"
 };
 
 // Initialize Firebase
